@@ -22,7 +22,7 @@ const FooterColumn = ({ title, links }: ColumnProps) => (
 
 const Footer = () => {
   return (
-    <footer className="flex justify-start items-center flex-col w-full gap-20 bg-light-white lg:px-20 py-6 px-5">
+    <footer className="flex justify-start items-center flex-col w-full gap-20 bg-light-white lg:px-20 py-6 px-5 border-t-2">
       <div className="flex flex-col gap-12 w-full">
         <div className="flex items-start flex-col">
           <Image
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-between items-center max-sm:flex-col w-full text-sm font-normal">
+      <div className="flex justify-between items-center max-sm:flex-col w-full text-sm font-normal border-t py-4">
         <p>@ 2023 Flexibble. All rights reserved</p>
         <p className="text-gray-500">
           <span className="text-black font-semibold">10,214</span> Projects
